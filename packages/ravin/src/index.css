@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li {
+  display: list-item;
+  list-style-position: inside;
+  list-style: decimal;
+  color: gray;
+}
+.heading {
+  color: black;
+  font-weight: bold;
+}
+ol {
+  margin-left: 35px;
+}
+th {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: start;
+}
+/* tr{
+
+  border-bottom: 1px solid rgb(128, 128, 128);
+} */
+
+.thumb-img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.poppy {
+  font-family: Roboto, sans-serif !important;
+}

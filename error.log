@@ -1,0 +1,266 @@
+
+> lint
+> eslint .
+
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/common/src/components/SUAutocomplete.tsx
+  115:9  error  The autoFocus prop should not be used, as it can reduce usability and accessibility for users  jsx-a11y/no-autofocus
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/common/src/components/SUChip.tsx
+  24:5   error  Visible, non-interactive elements with click handlers must have at least one keyboard listener                                                                                                     jsx-a11y/click-events-have-key-events
+  24:5   error  Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element  jsx-a11y/no-static-element-interactions
+  33:11  error  Visible, non-interactive elements with click handlers must have at least one keyboard listener                                                                                                     jsx-a11y/click-events-have-key-events
+  33:11  error  Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element  jsx-a11y/no-static-element-interactions
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/common/src/components/SUInput.tsx
+  126:9  error  The autoFocus prop should not be used, as it can reduce usability and accessibility for users  jsx-a11y/no-autofocus
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/common/src/main.tsx
+  7:28  warning  './components/SUAutocomplete' imported multiple times  import/no-duplicates
+  9:21  warning  './components/SUAutocomplete' imported multiple times  import/no-duplicates
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/common/src/services/api/interfaces/IOffer.ts
+  10:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  13:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  14:18  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/common/src/services/api/interfaces/IOpportunity.ts
+  49:13  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/manager-ui/src/context/AuthProvider.tsx
+  23:9   error  Unexpected empty arrow function  @typescript-eslint/no-empty-function
+  24:66  error  Unexpected empty arrow function  @typescript-eslint/no-empty-function
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/manager-ui/src/main.tsx
+  42:46  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/manager-ui/src/pages/admin/dealerships/AssignUser.tsx
+  78:19  error  Missing "key" prop for element in iterator  react/jsx-key
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/manager-ui/src/pages/admin/dealerships/CreateDealership.tsx
+  37:10  warning  'pendingClientLocation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  70:16  warning  Forbidden non-null assertion                                @typescript-eslint/no-non-null-assertion
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/manager-ui/src/pages/admin/dealerships/DealershipList.tsx
+  30:24  warning  'id' is defined but never used                @typescript-eslint/no-unused-vars
+  30:39  error    Unexpected empty method 'onDealershipSelect'  @typescript-eslint/no-empty-function
+  31:18  warning  'id' is defined but never used                @typescript-eslint/no-unused-vars
+  31:33  error    Unexpected empty method 'onUserSelect'        @typescript-eslint/no-empty-function
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/manager-ui/src/pages/admin/dealerships/FindDealership.tsx
+  67:11  error  Visible, non-interactive elements with click handlers must have at least one keyboard listener                                                                                                     jsx-a11y/click-events-have-key-events
+  67:11  error  Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element  jsx-a11y/no-static-element-interactions
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/manager-ui/src/pages/admin/dealerships/PendingUsers.tsx
+   64:15  warning  'axiosError' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  208:51  warning  'index' is defined but never used                @typescript-eslint/no-unused-vars
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/manager-ui/src/pages/admin/dealerships/UserDetails.tsx
+   72:17  warning  'error' is defined but never used                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  196:23  error    Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/manager-ui/src/pages/auth/Auth.tsx
+  1:24  warning  '/Users/philsitumorang/Projects/sellgague/stockup-next-ui/node_modules/react-router-dom/dist/index.js' imported multiple times  import/no-duplicates
+  2:10  warning  'SUFooter' is defined but never used                                                                                            @typescript-eslint/no-unused-vars
+  3:26  warning  '/Users/philsitumorang/Projects/sellgague/stockup-next-ui/node_modules/react-router-dom/dist/index.js' imported multiple times  import/no-duplicates
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/manager-ui/src/pages/auth/components/AuthCard.tsx
+  11:53  warning  'width' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/manager-ui/src/services/axios.ts
+  70:7  warning  Forbidden non-null assertion  @typescript-eslint/no-non-null-assertion
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/components/SUAutocomplete.tsx
+  115:9  error  The autoFocus prop should not be used, as it can reduce usability and accessibility for users  jsx-a11y/no-autofocus
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/components/SUChip.tsx
+  24:5   error  Visible, non-interactive elements with click handlers must have at least one keyboard listener                                                                                                     jsx-a11y/click-events-have-key-events
+  24:5   error  Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element  jsx-a11y/no-static-element-interactions
+  33:11  error  Visible, non-interactive elements with click handlers must have at least one keyboard listener                                                                                                     jsx-a11y/click-events-have-key-events
+  33:11  error  Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element  jsx-a11y/no-static-element-interactions
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/components/SUInput.tsx
+  126:9  error  The autoFocus prop should not be used, as it can reduce usability and accessibility for users  jsx-a11y/no-autofocus
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/components/SUInputNew.tsx
+  29:9  error  The autoFocus prop should not be used, as it can reduce usability and accessibility for users  jsx-a11y/no-autofocus
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/components/SUNavbar.tsx
+  3:19  error  To not found in 'react-router-dom'  import/named
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/context/AuthProvider.tsx
+  22:4   warning  's' is defined but never used    @typescript-eslint/no-unused-vars
+  22:10  error    Unexpected empty arrow function  @typescript-eslint/no-empty-function
+  23:66  error    Unexpected empty arrow function  @typescript-eslint/no-empty-function
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/hooks/useOutsideClick.tsx
+  6:15  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  9:40  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/index.tsx
+  44:44  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/admin/dealerships/AssignUser.tsx
+  75:19  error  Missing "key" prop for element in iterator  react/jsx-key
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/admin/dealerships/CreateDealership.tsx
+  32:10  warning  'pendingClientLocation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  65:16  warning  Forbidden non-null assertion                                @typescript-eslint/no-non-null-assertion
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/admin/dealerships/DealershipList.tsx
+  28:24  warning  'id' is defined but never used                @typescript-eslint/no-unused-vars
+  28:39  error    Unexpected empty method 'onDealershipSelect'  @typescript-eslint/no-empty-function
+  29:18  warning  'id' is defined but never used                @typescript-eslint/no-unused-vars
+  29:33  error    Unexpected empty method 'onUserSelect'        @typescript-eslint/no-empty-function
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/admin/dealerships/FindDealership.tsx
+  65:11  error    Visible, non-interactive elements with click handlers must have at least one keyboard listener                                                                                                     jsx-a11y/click-events-have-key-events
+  65:11  error    Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element  jsx-a11y/no-static-element-interactions
+  70:23  warning  'e' is defined but never used                                                                                                                                                                      @typescript-eslint/no-unused-vars
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/admin/dealerships/PendingUsers.tsx
+   63:15  warning  'axiosError' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  207:51  warning  'index' is defined but never used                @typescript-eslint/no-unused-vars
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/admin/dealerships/UserDetails.tsx
+   69:17  warning  'error' is defined but never used                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  195:23  error    Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/AuctionDetails.tsx
+  124:15  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  146:26  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  148:26  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  171:67  warning  Forbidden non-null assertion              @typescript-eslint/no-non-null-assertion
+  172:67  warning  Forbidden non-null assertion              @typescript-eslint/no-non-null-assertion
+  294:66  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  296:59  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/AuctionList.tsx
+   29:49  warning  './helper/suggestions' imported multiple times                                                 import/no-duplicates
+   39:8   warning  './helper/suggestions' imported multiple times                                                 import/no-duplicates
+   87:28  warning  Unexpected any. Specify a different type                                                       @typescript-eslint/no-explicit-any
+   88:31  warning  Unexpected any. Specify a different type                                                       @typescript-eslint/no-explicit-any
+  104:10  warning  'filterOpen' is assigned a value but never used                                                @typescript-eslint/no-unused-vars
+  113:35  warning  Unexpected any. Specify a different type                                                       @typescript-eslint/no-explicit-any
+  510:39  warning  Unexpected any. Specify a different type                                                       @typescript-eslint/no-explicit-any
+  586:13  error    The autoFocus prop should not be used, as it can reduce usability and accessibility for users  jsx-a11y/no-autofocus
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/Opportunity.tsx
+  41:40  warning  Forbidden non-null assertion  @typescript-eslint/no-non-null-assertion
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/components/BidForm.tsx
+  103:33  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  324:39  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  351:35  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  372:35  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/components/BiddingHistory.tsx
+  96:15  error  Missing "key" prop for element in iterator  react/jsx-key
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/components/ConditionReport.tsx
+  14:10  warning  'revBool' is defined but never used       @typescript-eslint/no-unused-vars
+  22:18  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/components/ImageSlider.tsx
+  14:10  warning  'isNext' is assigned a value but never used                                                                                                                                                        @typescript-eslint/no-unused-vars
+  87:15  error    Visible, non-interactive elements with click handlers must have at least one keyboard listener                                                                                                     jsx-a11y/click-events-have-key-events
+  87:15  error    Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element  jsx-a11y/no-static-element-interactions
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/components/ImageSlider/ImageSlider.tsx
+   33:26  warning  'setSelectedImages' is assigned a value but never used                                                                                                                                             @typescript-eslint/no-unused-vars
+   37:9   warning  'groupName' is assigned a value but never used                                                                                                                                                     @typescript-eslint/no-unused-vars
+   39:10  warning  'selectedImage' is assigned a value but never used                                                                                                                                                 @typescript-eslint/no-unused-vars
+   71:33  warning  Unexpected any. Specify a different type                                                                                                                                                           @typescript-eslint/no-explicit-any
+  392:17  error    Visible, non-interactive elements with click handlers must have at least one keyboard listener                                                                                                     jsx-a11y/click-events-have-key-events
+  392:17  error    Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element  jsx-a11y/no-static-element-interactions
+  395:17  error    Visible, non-interactive elements with click handlers must have at least one keyboard listener                                                                                                     jsx-a11y/click-events-have-key-events
+  395:17  error    Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element  jsx-a11y/no-static-element-interactions
+  401:13  error    Visible, non-interactive elements with click handlers must have at least one keyboard listener                                                                                                     jsx-a11y/click-events-have-key-events
+  401:13  error    Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element  jsx-a11y/no-static-element-interactions
+  443:11  error    Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element  jsx-a11y/no-static-element-interactions
+  496:27  warning  Forbidden non-null assertion                                                                                                                                                                       @typescript-eslint/no-non-null-assertion
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/components/ImageSlider/SingleImage.tsx
+  41:25  warning  Forbidden non-null assertion  @typescript-eslint/no-non-null-assertion
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/components/ImageSlider/ThumbNails.tsx
+  166:7   error    Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element  jsx-a11y/no-static-element-interactions
+  177:13  error    Visible, non-interactive elements with click handlers must have at least one keyboard listener                                                                                                     jsx-a11y/click-events-have-key-events
+  178:25  warning  'e' is defined but never used                                                                                                                                                                      @typescript-eslint/no-unused-vars
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/components/ImageSlider/lib/types.ts
+   8:18  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   9:27  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  12:18  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/components/OpportunityTitle.tsx
+  116:17  error  Missing "key" prop for element in iterator  react/jsx-key
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/components/SaveSearchForm.tsx
+  13:27  warning  Unexpected any. Specify a different type        @typescript-eslint/no-explicit-any
+  66:13  error    A form label must be associated with a control  jsx-a11y/label-has-associated-control
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/components/SavedSearchList.tsx
+  63:37  warning  'index' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/components/ShortLinkShare.tsx
+  29:10  warning  'isCopied' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/components/YearMileageForm.tsx
+   39:27  warning  'e' is defined but never used                                                                                                                                                                      @typescript-eslint/no-unused-vars
+   39:30  warning  Unexpected any. Specify a different type                                                                                                                                                           @typescript-eslint/no-explicit-any
+  108:5   error    Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element  jsx-a11y/no-static-element-interactions
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/components/photoGallery/PhotoGallery.tsx
+  50:12  warning  'onPointerDown' is defined but never used  @typescript-eslint/no-unused-vars
+  50:26  warning  'e' is defined but never used              @typescript-eslint/no-unused-vars
+  50:43  error    Unexpected empty function 'onPointerDown'  @typescript-eslint/no-empty-function
+  52:12  warning  'onPointerUp' is defined but never used    @typescript-eslint/no-unused-vars
+  52:24  warning  'e' is defined but never used              @typescript-eslint/no-unused-vars
+  52:41  error    Unexpected empty function 'onPointerUp'    @typescript-eslint/no-empty-function
+  54:26  warning  'e' is defined but never used              @typescript-eslint/no-unused-vars
+  54:43  error    Unexpected empty function 'onPointerMove'  @typescript-eslint/no-empty-function
+  98:38  error    Unexpected empty arrow function            @typescript-eslint/no-empty-function
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auction/helper/suggestions.ts
+   91:55  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  130:18  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  131:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auth/ResetPasswordToken.tsx
+  109:13  error  Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  109:13  error  Visible, non-interactive elements with click handlers must have at least one keyboard listener                                                                                                                 jsx-a11y/click-events-have-key-events
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auth/SignUp.tsx
+  6:10  warning  'Test' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/auth/components/AuthCard.tsx
+  11:53  warning  'width' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/info/HowItWorks.tsx
+  138:15  error  Missing "key" prop for element in iterator  react/jsx-key
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/info/view/FeeSchedule.tsx
+  35:30  warning  'index' is defined but never used           @typescript-eslint/no-unused-vars
+  37:19  error    Missing "key" prop for element in iterator  react/jsx-key
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/pages/share/Share.tsx
+  21:15  warning  'err' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/reportWebVitals.ts
+  1:10  error  ReportHandler not found in 'web-vitals'  import/named
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/services/api/interfaces/IOffer.ts
+  10:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  13:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  14:18  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/services/api/interfaces/IOpportunity.ts
+  49:13  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/philsitumorang/Projects/sellgague/stockup-next-ui/packages/stockup-next-ui/src/services/axios.ts
+  70:7  warning  Forbidden non-null assertion  @typescript-eslint/no-non-null-assertion
+
+✖ 140 problems (55 errors, 85 warnings)
+  0 errors and 2 warnings potentially fixable with the `--fix` option.
+

@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": [
+    "src",
+    "components",
+    "context",
+    "services",
+    "types",
+    "services/api",
+    "main.tsx",
+    "vite-env.d.ts"
+  ]
+}

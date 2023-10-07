@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto") url("./fonts/Roboto-Light.ttf") format("truetype") !important;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto") url("./fonts/Roboto-Regular.ttf") format("truetype") !important;
+}
+
+@layer components {
+  .text-link {
+    @apply text-blue-800 underline hover:no-underline hover:text-black;
+  }
+}
+
+li {
+  display: list-item;
+  list-style-position: inside;
+  list-style: decimal;
+  color: gray;
+}
+.heading {
+  color: black;
+  font-weight: bold;
+}
+ol {
+  margin-left: 35px;
+}
+th {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: start;
+}
+/* tr{
+
+  border-bottom: 1px solid rgb(128, 128, 128);
+} */
+
+.thumb-img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.poppy {
+  font-family: Roboto, sans-serif !important;
+}

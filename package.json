@@ -1,0 +1,29 @@
+{
+  "name": "@sellgauge/root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "stockup": "lerna run start --scope=stockup-next-ui",
+    "manager": "lerna run dev --scope=manager-ui",
+    "ravin": "lerna run start --scope=ravin-viewer",
+    "lint": "eslint . --max-warnings=0",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "husky": "^8.0.3",
+    "lerna": "^6.5.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.6"
+  }
+}
